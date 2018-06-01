@@ -2,6 +2,6 @@
 
 ___
 
-##A small project for print a generique name with jquery and html form
+## A small project for print a generique name with jquery and html form
 
 ___
