@@ -65,16 +65,16 @@ class Personnage
     }
 
     //procedure
-    public function aimeLaMusic(carac)
+    public function aimeLaMusic($carac)
     {
-        if(is_string(carac) && carac < 2)
+        if(is_string($carac) && $carac < 2)
         {
-            carac = strtolower(carac)
-            if(carac == 'y')
+            $carac = strtolower($carac)
+            if($carac == 'y')
             {
                 echo "Cool la music c'est la vie";
             }
-            elseif (carac == 'n')
+            elseif ($carac == 'n')
             {
                 echo "Dommage tu rate quelque chose";
             }
