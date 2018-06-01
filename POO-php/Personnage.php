@@ -15,15 +15,6 @@ class Personnage
 
     /** ----Constructeur---- **/
 
-    //instanciation d'un personnage anonyme
-    public function __construct()
-    {
-        $this->_name = "Anonymous";
-        $this->_age = 20;
-
-        self::$_id++;
-    }
-
     //instanciation d'un personnage definit par l'utilisateur
     public function __construct($name, $age)
     {
